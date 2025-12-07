@@ -37,7 +37,7 @@ const getKaohsiungWeather = async (req, res) => {
       {
         params: {
           Authorization: CWA_API_KEY,
-          locationName: "Taipei",
+          locationName: "嘉義縣",
         },
       }
     );
